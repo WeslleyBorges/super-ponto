@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['superponto.superensino.com.br']
+ALLOWED_HOSTS = ['super-ponto.herokuapp.com']
 
 
 # Application definition
