@@ -9,8 +9,6 @@ verify_ssl = true
 python-decouple = "*"
 dj-database-url = "*"
 gunicorn = "*"
-pycopg2 = "*"
-psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
