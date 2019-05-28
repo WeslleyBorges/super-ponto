@@ -10,6 +10,7 @@ python-decouple = "*"
 dj-database-url = "*"
 gunicorn = "*"
 django = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
