@@ -9,6 +9,7 @@ verify_ssl = true
 python-decouple = "*"
 dj-database-url = "*"
 gunicorn = "*"
+django = "*"
 
 [requires]
 python_version = "3.6"
