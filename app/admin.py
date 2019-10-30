@@ -4,12 +4,13 @@ from .models import *
 # Register your models here.
 @admin.register(Colaborador)
 class ColadoradorAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('nome', 'setor',)
 
 
-@admin.register(Ponto)
-class PontoAdmin(admin.ModelAdmin):
-    pass
+@admin.register(PontoDiario)
+class PontoDiarioAdmin(admin.ModelAdmin):
+    list_display = ('colaborador', 'data', 'chegada', 'saida', 'horas_trabalhadas',)
+    list_filter = ('data', 'colaborador',)
 
 
 @admin.register(Setor)
